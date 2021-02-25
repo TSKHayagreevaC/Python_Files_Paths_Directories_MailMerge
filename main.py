@@ -1,16 +1,24 @@
-# This is a sample Python script.
+# Reading Through A FIle...
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# with open("my_files.txt") as file:
+#     # file = open('my_files.txt')
+#     contents = file.read()
+#     print(contents)
 
+# Writing Through A File...
+#
+# with open("my_files.txt", mode="w") as file:
+#     file.write("New Text...")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# Appending A File...
 
+# with open("my_files.txt", mode="a") as file:
+#     file.write("\nAppended Text...")
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# Operating Files From Different Location Such As Desktop...
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# with open("/Users/SRIKANTH HAYAGREEVA/OneDrive/Desktop/my_files.txt") as file:
+#     # file = open('my_files.txt')
+#     contents = file.read()
+#     print(contents)
+
